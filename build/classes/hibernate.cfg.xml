@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory
+        name="java:hibernate/SessionFactory">
+
+        <!--  Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/library_for_all?serverTimezone=EST5EDT</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">78gp6qsxcP*</property>
+        
+        <!-- JDBC connection pool (use the built-in) the number of connection authorized -->
+        <property name="connection.pool_size">1</property>
+        
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        <!-- Disable the second-level cache -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property> 
+        
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+        
+        <mapping resource="Utilisateur.hbm.xml" />               
+        <mapping resource="PasswordResetToken.hbm.xml" />
+        
+        
+    </session-factory>
+
+</hibernate-configuration>

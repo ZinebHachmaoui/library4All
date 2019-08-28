@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:rich="http://richfaces.org/rich">
+
+<f:loadBundle basename="properties.standard.library" var="std" />
+
+<head>
+<title><ui:insert name="title">Library for all</ui:insert></title>
+<link rel="stylesheet" type="text/css"
+	href="${facesContext.externalContext.requestContextPath}/css/style.css" />
+
+</head>
+
+<body>
+
+	<h1>Welcome to LibraryForAll your online free library</h1>
+
+	<h:form>
+		<h:panelGrid id="panel" columns="2" border="0" cellpadding="13"
+			cellspacing="1">
+			<f:facet name="header">
+				<h:outputText id="identification"
+					value="Réinitialisation du mot de passe" style="font-size:33px;" />
+			</f:facet>
+			<h:outputText value="Si cette adresse courriel/téléphone est associé(e) à votre compte, un courriel" />
+			<br/>
+			<h:outputText value="de réinitialisation du mot de passe sera envoyé." />			
+			<br/>
+            <h:commandLink action="#{login.goLoginPage}" value="Revenir à la home page." id="retourLogin"/>
+
+			<h:messages style="color: #f1c860" />
+
+		</h:panelGrid>
+
+	</h:form>
+
+</body>
+</html>
+
+

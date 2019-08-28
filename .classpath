@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_191">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSF Mojarra">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.jsf"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-aop-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-aop-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-aop-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-aspects-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-aspects-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-aspects-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-beans-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-beans-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-beans-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-indexer-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-indexer-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-indexer-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-support-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-support-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-context-support-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-core-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-core-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-core-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-expression-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-expression-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-expression-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-instrument-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-instrument-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-instrument-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jcl-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jcl-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jcl-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jdbc-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jdbc-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jdbc-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jms-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jms-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-jms-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-messaging-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-messaging-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-messaging-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-orm-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-orm-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-orm-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-oxm-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-oxm-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-oxm-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-test-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-test-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-test-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-tx-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-tx-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-tx-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-web-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-web-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-web-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-webflux-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-webflux-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-webflux-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-webmvc-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-webmvc-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-webmvc-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-websocket-5.1.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-websocket-5.1.9.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/Downloads/libs of spring 5/spring-websocket-5.1.9.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhachmaoui/workspace/LibraryForAll/WebContent/WEB-INF/lib/hibernate-core-5.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mail-1.4.7.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
