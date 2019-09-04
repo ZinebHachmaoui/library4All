@@ -4,14 +4,18 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:rich="http://richfaces.org/rich">
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
 
 <f:loadBundle basename="properties.standard.library" var="std" />
 
 <head>
-<title><ui:insert name="title">Library for all</ui:insert></title>
+<title><ui:insert name="title" value="#{std.nosso_titre}" /></title>
+<c:set var="url">${pageContext.request.requestURL}</c:set>
+  <base href="${fn:substring(url, 0, fn:length(url) - fn:length(pageContext.request.requestURI))}${pageContext.request.contextPath}/" />  
+ 
 <link rel="stylesheet" type="text/css"
-	href="${facesContext.externalContext.requestContextPath}/css/style.css" />
+	href="ressources/css/style.css" />
 
 </head>
 
@@ -24,13 +28,13 @@
 			cellspacing="1">
 			<f:facet name="header">
 				<h:outputText id="identification"
-					value="Réinitialisation du mot de passe" style="font-size:33px;" />
+					value="#{std.nosso_password_update}" style="font-size:33px;" />
 			</f:facet>
-			<h:outputText value="Si cette adresse courriel/téléphone est associé(e) à votre compte, un courriel" />
+			<h:outputText value="#{std.nosso_password_update_text1}" />
 			<br/>
-			<h:outputText value="de réinitialisation du mot de passe sera envoyé." />			
+			<h:outputText value="#{std.nosso_password_update_text2}" />			
 			<br/>
-            <h:commandLink action="#{login.goLoginPage}" value="Revenir à la home page." id="retourLogin"/>
+            <h:commandLink action="#{login.goLoginPage}" value="#{std.nosso_password_retour_login}" id="retourLogin"/>
 
 			<h:messages style="color: #f1c860" />
 

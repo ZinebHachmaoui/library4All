@@ -16,6 +16,7 @@
       <property name = "password" column = "password" type = "string"/>
       <property name = "dateCreation" column = "dateCreation" type = "string"/>
       <property name = "dateDerniereConnexion" column = "dateDerniereConnexion" type = "string"/>
+      <property name = "actif" column = "actif" type = "int"/>
       
 </class>
 </hibernate-mapping>

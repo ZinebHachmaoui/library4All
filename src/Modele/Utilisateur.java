@@ -18,6 +18,24 @@ public class Utilisateur {
 	private String prenom;
 	private String email;
 	private String telephone;
+	private int actif;
+	public Utilisateur(String nom, String prenom, String email, String password, int actif) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.password = password;
+		this.actif = actif;
+	}
+
+	public int getActif() {
+		return actif;
+	}
+
+	public void setActif(int actif) {
+		this.actif = actif;
+	}
+
 	private String password;
 	private Date dateCreation;
 	private Date dateDerniereConnexion;

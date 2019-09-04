@@ -28,6 +28,7 @@
         
         <mapping resource="Utilisateur.hbm.xml" />               
         <mapping resource="PasswordResetToken.hbm.xml" />
+        <mapping resource="CreateAccountToken.hbm.xml" />
         
         
     </session-factory>

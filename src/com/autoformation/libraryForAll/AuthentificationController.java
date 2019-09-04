@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping("/changePassword")
 public class AuthentificationController {
-
 	
 	@RequestMapping(value = "/changePassword", method = RequestMethod.GET)
-	public String showChangePasswordPage(Locale locale, Model model, 
+	public String changePassword(Locale locale, Model model, 
 	  @RequestParam("id") int id, @RequestParam("token") String token) {
 		String result = LoginDAO.validatePasswordResetToken(id, token);
 	    if (result != null) {
@@ -22,8 +20,6 @@ public class AuthentificationController {
 	          "Erreur");
 	        return "login";
 	    }
-	    return "redirect:/updatePassword.jsp";
+	    return "redirect:/faces/updatePassword.xhtml?id="+id;
 	}
-	
-	
 }
