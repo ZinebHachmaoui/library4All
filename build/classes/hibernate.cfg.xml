@@ -4,7 +4,6 @@
     "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 
 <hibernate-configuration>
-
     <session-factory
         name="java:hibernate/SessionFactory">
 
@@ -29,8 +28,6 @@
         <mapping resource="Utilisateur.hbm.xml" />               
         <mapping resource="PasswordResetToken.hbm.xml" />
         <mapping resource="CreateAccountToken.hbm.xml" />
-        
-        
+         
     </session-factory>
-
 </hibernate-configuration>

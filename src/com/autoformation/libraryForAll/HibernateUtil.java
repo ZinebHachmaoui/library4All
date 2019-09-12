@@ -17,6 +17,7 @@ public class HibernateUtil {
 		            configuration.addClass(Modele.Utilisateur.class);
 		            configuration.addClass(Modele.PasswordResetToken.class);
 		            configuration.addClass(Modele.CreateAccountToken.class);
+		            configuration.addClass(Modele.Livre.class);
 		            ServiceRegistry serviceRegistry
 		                = new StandardServiceRegistryBuilder()
 		                    .applySettings(configuration.getProperties()).build();

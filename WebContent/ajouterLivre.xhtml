@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+
+<f:loadBundle basename="properties.standard.library" var="std" />
+
+<head>
+<title><ui:insert name="title" value="#{std.nosso_titre}" /></title>
+<c:set var="url">${pageContext.request.requestURL}</c:set>
+<base
+	href="${fn:substring(url, 0, fn:length(url) - fn:length(pageContext.request.requestURI))}${pageContext.request.contextPath}/" />
+
+<link rel="stylesheet" type="text/css" href="ressources/css/homepage.css" />
+
+</head>
+
+<body style="background-color:#A4C284">
+
+	<h3 style="font-size: 22px;">“Be grateful for what you have now. 
+	As you begin to think about all the things in your life you are 
+	grateful for, you will be amazed at the never ending thoughts 
+	that come back to you of more things to be grateful for.
+	You have to make a start, and then the law of attraction will 
+	receive those grateful thoughts and give you more just like them.”</h3>
+	<span>― Rhonda Byrne<b>The Secret</b></span>
+
+	<h:form>
+		<h:panelGrid id="panel" columns="2" border="0" cellpadding="13"
+			cellspacing="1">
+			<f:facet name="header">
+				<h:outputText id="identification" value="#{std.nosso_ajouter_livre}"
+					style="font-size:33px;" />
+			</f:facet>
+			<h:outputLabel value="#{std.nosso_nom_livre}" />
+			<h:inputText value="#{home.livre.nom}" />
+			<h:outputLabel value="#{std.nosso_auteur_livre}" />
+			<h:inputText value="#{home.livre.auteur}" />
+			<h:outputLabel value="#{std.nosso_type_livre}" />
+			<h:inputText value="#{home.livre.type}" />
+		    <h:outputLabel value="#{std.nosso_theme_livre}" />
+			<h:inputText value="#{home.livre.theme}" />
+			<h:outputLabel value="#{std.nosso_dateEdition_livre}" />
+			<h:inputText value="#{home.livre.dateEdition}" />
+			<h:outputLabel value="#{std.nosso_resume_livre}" />
+			<h:inputText value="#{home.livre.resume}" />
+			<h:outputLabel value="#{std.nosso_couverture_livre}" />
+			<h:inputText value="#{home.livre.couverture}" />
+			<h:outputLabel value="#{std.nosso_urlFichier_livre}" />
+			<h:inputText value="#{home.livre.urlFichier}" />
+	
+
+			<h:messages style="color: #f1c860" />
+
+			<f:facet name="footer">
+				<h:panelGroup style="display:block; text-align:center">
+					<h:commandButton id="submit"
+						value="#{std.nosso_ajouter_livre_bouton}"
+						action="#{login.createAccount}" />
+				</h:panelGroup>
+			</f:facet>
+		</h:panelGrid>
+
+	</h:form>
+
+</body>
+</html>
+
+

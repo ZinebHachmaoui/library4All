@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="Modele">
+<class name="Livre" table="livre">
+<meta attribute="sync-DAO">false</meta>
+<id name = "id" type = "int" column = "id">
+         <generator class="native"/>
+      </id>
+      
+      <property name = "auteur" column = "auteur" type = "string"/>
+      <property name = "couverture" column = "couverture" type = "blob"/>
+      <property name = "dateAjout" column = "dateAjout" type = "java.time.LocalDateTime"/>
+      <property name = "urlFichier" column = "fichier" type = "string"/>
+      <property name = "nom" column = "nom" type = "string"/>
+      <property name = "resume" column = "resume" type = "string"/>
+      <property name = "type" column = "type" type = "string"/>
+      <property name = "theme" column = "theme" type = "string"/>
+      <property name = "dateEdition" column = "dateEdition" type = "java.time.LocalDateTime"/>
+
+</class>
+</hibernate-mapping>

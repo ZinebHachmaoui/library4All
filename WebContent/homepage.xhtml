@@ -28,6 +28,21 @@
 		the world felt so safe and homey. Nowhere else smelled like books and
 		dust and happy solitude quite like a library did."</h3>
 	<span>- from First Kill by <b>Heather Brewer</b></span>
+	
+	
+	<h:form>
+          <c:forEach var="item" items="#{home.listLivre}">
+          <h:panelGrid>
+            <h:outputText value="#{item.auteur}"/>
+            <h:outputText value="#{item.nom}"/>
+            <h:outputText value="#{item.theme}"/>
+            <h:outputText value="#{item.couverture}"/>
+            <h:outputText value="#{item.dateEdition}"/>
+            <h:outputText value="#{item.type}"/>
+            <h:outputText value="#{item.resume}"/>
+          </h:panelGrid>   
+          </c:forEach>
+    </h:form>
 
 
 </h:body>
